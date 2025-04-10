@@ -1,0 +1,8 @@
+2025-04-10 08:21:44 - Carga: Teste de Carga: Verifica o desempenho do sistema sob uma carga esperada de usuários, transações ou dados.
+2025-04-10 08:22:23 - Stress: Teste de Stress: Avalia o comportamento do sistema em situações extremas, acima de sua capacidade máxima esperada.
+2025-04-10 09:06:50 - Stress: Teste de Stress: Avalia o comportamento do sistema em situações extremas, acima de sua capacidade máxima esperada.
+2025-04-10 09:06:55 - Stress: Teste de Stress: Avalia o comportamento do sistema em situações extremas, acima de sua capacidade máxima esperada.
+2025-04-10 09:07:09 - Carga: Teste de Carga: Verifica o desempenho do sistema sob uma carga esperada de usuários, transações ou dados.
+2025-04-10 09:07:21 - Pico: Teste de Pico: Mede a capacidade do sistema de lidar com aumentos súbitos e intensos de carga em um curto espaço de tempo.
+2025-04-10 09:07:33 - Escalabilidade: Teste de Escalabilidade: Avalia a capacidade do sistema de crescer em desempenho proporcionalmente ao aumento de recursos ou usuários.
+2025-04-10 09:07:49 - Endurance: Teste de Endurance (ou Soak): Avalia o desempenho do sistema por um longo período sob carga constante, detectando problemas como vazamentos de memória.
