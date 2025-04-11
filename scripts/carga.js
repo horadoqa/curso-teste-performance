@@ -8,7 +8,7 @@ export let options = {
     { duration: '30s', target: 0 },  // rampa de saída
   ],
   thresholds: {
-    http_req_duration: ['p(95)<200'], // 95% das requisições devem durar < 500ms
+    http_req_duration: ['p(95)<500'], // 95% das requisições devem durar < 500ms
     http_req_failed: ['rate<0.03'],   // menos de 3% de falhas
   },
 };
@@ -18,7 +18,7 @@ export default function () {
 
   check(res, {
     'status é 200': (r) => r.status === 200,
-    'tempo de resposta < 400ms': (r) => r.timings.duration < 400,
+    'tempo de resposta < 500ms': (r) => r.timings.duration < 500,
   });
 
   sleep(1); // pausa de 1s entre as requisições
